@@ -2,7 +2,7 @@
 
 int counter = 0; // Declare and initialize counter
 int rest = 1000;
-int bit_count = 8;
+int bit_count = 14;
 
 void setup() {
     // Initialize digital pins 0 to 7 as outputs
@@ -60,5 +60,5 @@ void loop() {
     // counter = (counter + 1) % 100;
 
     // Add a small delay before the next loop
-    delay(200);
+    delay(100);
 }
